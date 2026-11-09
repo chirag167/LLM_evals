@@ -1,0 +1,16 @@
+{
+  "_comment": "Step 3: fix every knob and its allowed values BEFORE running. Commit this file first.",
+
+  "models": ["Qwen/Qwen2.5-0.5B-Instruct", "Qwen/Qwen2.5-1.5B-Instruct"],
+ 
+  "dataset": "mmlu",
+  "n_questions": 1500,
+  "seed": 0,
+
+  "knobs": {
+    "template":     ["plain", "instructed"],
+    "n_shots":      [0, 5],
+    "option_order": ["original", "shuffled"],
+    "extraction":   ["first_letter", "regex", "logprob"]
+  }
+}
