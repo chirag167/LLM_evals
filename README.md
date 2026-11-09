@@ -1,6 +1,6 @@
-# Statistical and systematic uncertainty in an LLM benchmark comparison
+# A Pilot Study -- Statistical and systematic uncertainty in an LLM benchmark comparison
 
-A small pilot study. I took two open-weight language models, scored them on the same 1,500 MMLU questions under 24 different but equally reasonable evaluation setups, and built an uncertainty budget for the difference between them, the way one would for a measured cross section in nuclear physics.
+I took two open-weight language models, scored them on the same 1,500 MMLU questions under 24 different but equally reasonable evaluation setups, and built an uncertainty budget for the difference between them.
 
 The question: when a benchmark says model A beats model B by some number of points, how much of that number depends on choices the evaluator made, and how does that compare with ordinary sampling noise?
 
